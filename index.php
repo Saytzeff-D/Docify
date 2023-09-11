@@ -27,7 +27,7 @@
             <p class="text-warning fs-4 my-0">
                 Step by Step Guide
             </p>
-            <div class="col-md-4 mb-md-0 mb-4 cursor-pointer" onClick="document.location.href='/php-works/Docify/templates.php'">
+            <div class="col-md-4 mb-md-0 mb-4 cursor-pointer" onClick="document.location.href='<?php echo $_SERVER['REQUEST_URI'].'templates.php' ?>'">
                 <div class="border border-warning text-warning text-center shadow p-5">
                     <p class="display-5 fs-2 fw-bold">
                         1
