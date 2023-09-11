@@ -18,8 +18,22 @@
 <body>
     <div class="container py-5">
         <p class="text-center text-warning fs-1">
-            Choose a template
+            Choose a Template            
         </p>
+        <div class="container">
+            <div class="col-md-3">
+                <div class="border border-warning p-3 shadow-lg">
+                    <p class="text-warning text-center fs-4" >
+                        Room Rental Agreement
+                    </p>
+                    <div class="d-flex justify-content-center pt-4">
+                        <button onClick="document.location.href='<?php echo dirname($_SERVER['REQUEST_URI']).'/rent.php' ?>'" class="btn btn-warning fw-bold btn-lg rounded-0">
+                            Fill Template
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
